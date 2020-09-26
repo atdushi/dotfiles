@@ -18,6 +18,10 @@ https://github.com/tobi-wan-kenobi/bumblebee-status
 
 https://gitlab.com/dwt1
 
+# Useful commands
+
+xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1 | xargs -I {} xrandr --output {} --brightness 0.7
+
 # Useful programs
 
 slim (lightweight login manager)
