@@ -27,6 +27,7 @@ fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1) | lolcat
 # Useful programs
 
 slim (lightweight login manager)
+
 rofi -show run (run command)
 
 conky (system widget)
