@@ -24,6 +24,8 @@ xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1 | xargs -I {} xrandr 
 
 fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1) | lolcat
 
+curl cheat.sh/pacman
+
 # Useful programs
 
 slim (lightweight login manager)
